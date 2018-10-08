@@ -1,0 +1,8 @@
+---
+
+- name: Scale up OpenShift
+  hosts: all
+  gather_facts: false
+  roles:
+    - role: scaleup
+
