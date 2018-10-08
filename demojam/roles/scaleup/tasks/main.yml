@@ -1,6 +1,6 @@
 ---
-#- name: Login to OpenShift
-#  command: oc login -u admin -p Redhat1!
+- name: Login to OpenShift
+  command: oc login -u admin -p Redhat1!
 
 - name: Get current replicas
   command: "oc get dc myapp -n battle-royale"
